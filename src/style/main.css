@@ -1,0 +1,127 @@
+    /*! Sección contenedora de Home y NewsProducts */
+.home-container {
+    margin: 10px !important;
+    padding: 10px !important;
+}
+.list-group {
+    gap: 5px !important;
+}
+.list-group-item {
+    cursor: pointer !important;
+    background-color: #d9534f !important;
+    color: white !important;
+    border-radius: 10px;
+}
+.col {
+    margin-bottom: 10px !important;
+}
+.card {
+    width: 300px !important;
+    height: 300px !important;
+}
+.card-img-top {
+    padding: 10px !important;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #55595c;
+    color: white !important;
+} 
+
+.btn {
+    background-color: #d9534f !important;
+}
+
+    /*! Sección contenedora de NewsDetail */
+.main-detail {
+    margin: 10px !important;
+    padding: 10px;
+}
+.buttons-container {
+    display: flex;
+    gap: 40px;
+    margin: 15px 0px 15px 0px;
+}
+.div-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+.div-buttons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 23px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+}
+.carousel-contain {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+    height: max-content;
+    gap: 20px;
+    text-align: justify;
+    align-items: center;
+}
+.carousel {
+    width: 30rem;
+}
+.d-block {
+    height: 260px ;
+    object-fit: contain !important;
+}
+.div-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black !important;
+    border-radius: 50%;
+    padding: 20px;
+}
+.carousel-indicators button {
+    background-color: black !important;
+    padding: 1px !important;
+}
+
+    /*! Sección contenedora de Favorites */
+.favorites-main {
+    margin: 30px 0px;
+}
+.list-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.list-item {
+    display: flex;
+    padding: 15px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    list-style: none;
+    border: 1px solid #572120;
+    border-radius: 15px;
+    box-shadow: 4px 4px 1px 1px #57212079;
+    width: 300px;
+}
+.buttons-contain {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px 0px 15px 0px;
+}
